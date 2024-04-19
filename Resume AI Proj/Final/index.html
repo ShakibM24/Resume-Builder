@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Resume Helper</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+
+        <nav class = "navbar bg-white">
+            <div class="container">
+                <div class = "navbar-content">
+                    <div class = "brand-and-toggler">
+                        <a href = "index.html" class = "navbar-brand">
+                            <img src = "cuny-logo-E85957DB00-seeklogo.com.png" alt = "" class = "navbar-brand-icon">
+                            <span class = "navbar-brand-text">Springforward <span>Resume/Career.</span>
+                        </a>
+                        <button type = "button" class = "navbar-toggler-btn">
+                            <div class = "bars">
+                                <div class = "bar"></div>
+                                <div class = "bar"></div>
+                                <div class = "bar"></div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class = "header bg-bright" id = "header">
+            <div class = "container">
+                <div class = "header-content text-center">
+                    <h6 class = "text-uppercase text-blue-dark fs-14 fw-6 ls-1">Resume builder/Career Guidance</h6>
+                    <h1 class = "lg-title">We want to help ensure CUNY students are on the right path of their Career</h1>
+                    <p class = "text-dark fs-18">Use professional field-tested resume templates that follow the 'guidelines' employers look for. Easy to use and done within minutes.</p>
+                    <a href = "resume.html" class = "btn btn-primary text-uppercase">create my resume</a>
+                    <img src = "4187049.jpg">
+                </div>
+            </div>
+        </header>
+
+        <div class="section-one">
+            <div class="container">
+                <div class = "section-one-content">
+                    <div class="section-one-l">
+                        <img src = "4155971.jpg">
+                    </div>
+                    <div class = "section-one-r text-center">
+                        <h2 class = "lg-title">Use this Resume Helper as your guide!</h2>
+                        <p class = "text">Getting that dream job may seem challenging. We're here to change that. Give yourself a real advantage with our Resume Helper/Maker.</p>
+                        <div class = "btn-group">
+                            <a href = "resume.html" class = "btn btn-primary text-uppercase">create my resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="pdfFile">Select a PDF file:</label>
+            <input type="file" id="pdfFile" name="pdfFile" accept=".pdf">
+            <script src = "node.js" > </script>
+            <br>
+            <input type="submit" value="Upload">
+        </form>
+        <div class = "section-two bg-bright">
+            <div class="container">
+                <div class="section-two-content">
+                    <div class = "section-items">
+                        <div class = "section-item">
+                            <h5 class = "section-item-title">Make a resume that wins interviews!</h5>
+                            <p class = "text">Use our resume maker with its advanced creation tools to tell professional story that engages recruiters, hiring managers and even CEOs.</p>
+                        </div>
+
+                        <div class = "section-item">
+                            <h5 class = "section-item-title">Resume writing made easy!</h5>
+                            <p class = "text">Resume writing has never been this effortless. Pre-generated text, visual designs and more - all already integrated into the resume maker. Just fill in your details.</p>
+                        </div>
+
+                        <div class = "section-item">
+                            <h5 class = "section-item-title">A recruiter-tested CV maker tool</h5>
+                            <p class = "text">Our resume builder and its pre-generated content are tested by recruiters and IT experts. We help your CV become truly competitive in the hiring process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
