@@ -17,15 +17,9 @@
                     <div class = "brand-and-toggler">
                         <a href = "index.html" class = "navbar-brand">
                             <img src = "cuny-logo-E85957DB00-seeklogo.com.png" alt = "" class = "navbar-brand-icon">
-                            <span class = "navbar-brand-text">Springforward <span>Resume/Career.</span>
+                            <span class = "navbar-brand-text"> Builder <span>Resume/Career.</span>
                         </a>
-                        <button type = "button" class = "navbar-toggler-btn">
-                            <div class = "bars">
-                                <div class = "bar"></div>
-                                <div class = "bar"></div>
-                                <div class = "bar"></div>
-                            </div>
-                        </button>
+
                     </div>
                 </div>
             </div>
@@ -37,7 +31,7 @@
                     <h6 class = "text-uppercase text-blue-dark fs-14 fw-6 ls-1">Resume builder/Career Guidance</h6>
                     <h1 class = "lg-title">We want to help ensure CUNY students are on the right path of their Career</h1>
                     <p class = "text-dark fs-18">Use professional field-tested resume templates that follow the 'guidelines' employers look for. Easy to use and done within minutes.</p>
-                    <a href = "resume.html" class = "btn btn-primary text-uppercase">create my resume</a>
+             <!--       <a href = "resume.html" class = "btn btn-primary text-uppercase">create my resume</a> -->
                     <img src = "4187049.jpg">
                 </div>
             </div>
@@ -59,13 +53,28 @@
                 </div>
             </div>
         </div>
-        <form action="/upload" method="post" enctype="multipart/form-data">
-            <label for="pdfFile">Select a PDF file:</label>
-            <input type="file" id="pdfFile" name="pdfFile" accept=".pdf">
-            <script src = "node.js" > </script>
-            <br>
-            <input type="submit" value="Upload">
-        </form>
+        <div class="form-container">
+            <img src="7618705.jpg" alt="Descriptive Alt Text" class="form-image">
+            <form id="uploadForm" enctype="multipart/form-data">
+                <p class="text font-poppins">We want to help improve your Resume with the help of AI.</p>
+                <label for="pdfFile" class="font-poppins">Select a PDF file:</label>
+                <input type="file" id="pdfFile" name="pdfFile" accept=".pdf">
+                <br>
+                <!-- Link directly to the chatbot page -->
+                <a href="chatbot/template/chatbot.html" class="btn btn-primary font-poppins">Upload and Proceed</a>
+                <br>
+                <!-- Custom GPT link as a button -->
+                <p class = "text font-poppins" > Try Out our own custom GPT to help you improve your resume further</p>
+                <a href="https://chat.openai.com/g/g-hA5LdLWZt-student-resume-helper" class="btn btn-primary font-poppins" target="_blank">Custom GPT</a>
+            </form>
+        </div>
+        
+       
+        
+        
+        
+        
+              
         <div class = "section-two bg-bright">
             <div class="container">
                 <div class="section-two-content">
@@ -81,13 +90,22 @@
                         </div>
 
                         <div class = "section-item">
-                            <h5 class = "section-item-title">A recruiter-tested CV maker tool</h5>
-                            <p class = "text">Our resume builder and its pre-generated content are tested by recruiters and IT experts. We help your CV become truly competitive in the hiring process.</p>
+                            <h5 class = "section-item-title">A recruiter-tested Resume maker tool</h5>
+                            <p class = "text">Our resume builder and its pre-generated content are tested by recruiters and IT experts. We help your Resume become truly competitive in the hiring process.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <p class="fs-15">Credits and Contributions: Shakib Mollah, Jeffrey Wang, Alisher Y</p>
+                    <p class="fs-15">Professor Deleram (Mentor)</p>
+                    <p class="fs-15">CUNY Springforward Internship</p>
+                </div>
+            </div>
+        </footer>        
 
     </body>
 </html>

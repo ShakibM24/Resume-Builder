@@ -172,6 +172,19 @@ a{
 .btn-group button:first-child, .btn-group a:first-child{
     margin-right: 1rem!important;
 }
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Add padding or margin as necessary to control spacing */
+}
+
+.form-image {
+    max-width: 50%; /* Ensures the image is responsive and fits the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust the space between the image and the form */
+}
 
 /* navbar part */
 .navbar{
@@ -343,23 +356,23 @@ a{
     padding: 64px 0;
 }
 
-.cv-form-row-title{
+.Resume-form-row-title{
     background-color: var(--clr-dark);
     padding: 0.8rem 1.6rem;
     margin-bottom: 2rem;
 }
 
-.cv-form-row-title h3{
+.Resume-form-row-title h3{
     color: var(--clr-white);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 1.7rem;
 }
-.cv-form-blk{
+.Resume-form-blk{
     margin: 3rem 0;
 }
-.cv-form-row{
+.Resume-form-row{
     padding: 3rem 2rem 0 2rem;
     border: 1px solid rgba(0, 0, 0, 0.08);
     margin-bottom: 1rem;
