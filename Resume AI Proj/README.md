@@ -1,2 +1,2 @@
 # Resume Builder
- With the Use of AI, we will imprive your resumes & write your own resume/CV.
+ Incorporated a custom GPT to tailor your resumes as a way to leverage an AI, and also appiled a unique interactive feature to create your own CV. 
